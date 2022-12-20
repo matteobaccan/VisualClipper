@@ -1,0 +1,8 @@
+description=WVWCLIP (Visual Clipper via GTWVW, win-only)
+
+skip={!allwin}
+
+incpaths=.
+headers=${hb_name}.ch
+
+libs=${_HB_DYNPREF}wvwclip${_HB_DYNSUFF}

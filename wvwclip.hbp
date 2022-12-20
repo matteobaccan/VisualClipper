@@ -1,0 +1,26 @@
+-n -w0 -ql -es2
+
+-hblib
+
+-o${hb_name}
+
+# install files and paths
+-instfile=misc:*.hbc
+-instfile=misc:*.hbx
+-instfile=misc:*.txt
+-instfile=misc:*.pdf
+-instfile=inc:*.ch
+-instfile=tests:tests/*.*
+-instfile=tests_sub:tests/data/*.*
+
+# misc files, public headers, tests
+-instpath=misc:${hb_addons}/wvwclip/
+-instpath=inc:${hb_addons}/wvwclip/
+-instpath=tests:${hb_addons}/wvwclip/tests/
+-instpath=tests_sub:${hb_addons}/wvwclip/tests/data/
+
+${hb_name}.hbx
+
+wvwclip.prg
+wvwclasses.prg
+

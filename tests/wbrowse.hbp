@@ -1,0 +1,13 @@
+-n -m -w0 -es2 -q0
+-rebuild
+
+-owbrowse
+
+wvwclip.hbc 
+hbxpp.hbc 
+hbct.hbc 
+hbwin.hbc 
+gtwvw.hbc
+
+wbrowse.prg
+

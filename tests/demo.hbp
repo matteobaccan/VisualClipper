@@ -1,0 +1,16 @@
+-n -m -w0 -es2 -q0
+-rebuild
+
+-odemo
+
+hbxpp.hbc
+hbct.hbc
+hbwin.hbc
+gtwvw.hbc
+wvwclip.hbc
+
+demo.prg
+wvwmenu.prg
+errorsys.prg
+empdet.prg
+editor.prg
